@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>J'Lazer! Team!</title>
+    <link rel="stylesheet" href="views/styles.css">
+
+    <script src="vendors/angular.min.js"></script>
+    <script src="assets/client.js"></script>
+</head>
+<body>
+    <h1>J'Lazer! Team.</h1>
+    <div class="form" ng-controller="assController">
+        <p>Student Name: <input type="text" ng-model="assignment.name"/></p>
+        <p>Assignment Number: <input type="number" ng-model="assignment.number"/></p>
+        <p>Score: <input type="number" ng-model="assignment.score"/></p>
+        <p>Date: <input type="date" ng-model="assignment.date"/></p>
+        <p>Pass:
+            <select ng-model="assignment.pass">
+                <option value="true">Pass</option>
+                <option value="false">Fail</option>
+            </select>
+            </p>
+        <p><button class="submit" ng-click="submitData(assignment)">Submit</button></p>
+        <P CLASS="tts">TRANSCENDENCE THROUGH SUFFERING<br>
+        graphic design is my passion</P>
+        <!--grabAss - A search field that locates assignment numbers and calls a function in client.js that gets it and appends it.-->
+    </div>
+
+</body>
+</html>

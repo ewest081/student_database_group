@@ -1,0 +1,23 @@
+body {
+    background-color: red;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    color: aqua;
+}
+input, select {
+    background-color: yellow;
+    color: brown;
+    border: 3px solid green;
+}
+button {
+    font: bold 30px/32px 'Papyrus';
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 10px solid yellow;
+    background-color: orange;
+}
+.tts {
+    color: lime;
+    letter-spacing: 5px;
+}
